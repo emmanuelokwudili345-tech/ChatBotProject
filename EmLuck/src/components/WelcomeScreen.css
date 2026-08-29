@@ -1,25 +1,25 @@
 .welcome-screen {
   width: 100%;
   max-width: 900px;
-  padding: 80px 32px;
+  padding: 64px 32px;
 }
 
 .welcome-screen__content {
-  max-width: 680px;
+  max-width: 640px;
 }
 
 .welcome-screen__eyebrow {
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   color: var(--color-primary);
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.12em;
 }
 
 .welcome-screen__title {
-  font-size: clamp(2.5rem, 5vw, 4.5rem);
-  line-height: 1.05;
-  letter-spacing: -0.04em;
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  line-height: 1.1;
+  letter-spacing: -0.035em;
   font-weight: 700;
 }
 
@@ -29,9 +29,9 @@
 }
 
 .welcome-screen__description {
-  max-width: 560px;
-  margin-top: 24px;
+  max-width: 520px;
+  margin-top: 18px;
   color: var(--color-text-muted);
-  font-size: 1.05rem;
-  line-height: 1.7;
+  font-size: 0.95rem;
+  line-height: 1.6;
 }

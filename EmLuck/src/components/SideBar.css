@@ -1,7 +1,7 @@
 .sidebar {
   width: var(--sidebar-width);
   min-height: 100vh;
-  padding: 24px 16px;
+  padding: 20px 14px;
   background: var(--color-sidebar);
   color: var(--color-text-light);
   display: flex;
@@ -9,42 +9,44 @@
 }
 
 .sidebar__brand {
-  margin-bottom: 28px;
-  font-size: 1.1rem;
+  margin-bottom: 22px;
+  font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.08em;
 }
 
 .sidebar__new-chat {
   width: 100%;
-  padding: 11px 14px;
+  padding: 9px 12px;
   border-radius: var(--radius-sm);
   background: var(--color-primary);
   color: white;
   text-align: left;
-  margin-bottom: 28px;
+  margin-bottom: 22px;
+  font-size: 0.875rem;
 }
 
 .sidebar__section {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 2px;
 }
 
 .sidebar__label {
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   color: #9b9dab;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
 
 .sidebar__chat {
-  padding: 10px 12px;
+  padding: 8px 10px;
   border-radius: var(--radius-sm);
   background: transparent;
   color: #d9d9df;
   text-align: left;
+  font-size: 0.875rem;
 }
 
 .sidebar__chat:hover {
@@ -55,15 +57,16 @@
   margin-top: auto;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 2px;
 }
 
 .sidebar__bottom button {
-  padding: 10px 12px;
+  padding: 8px 10px;
   border-radius: var(--radius-sm);
   background: transparent;
   color: #d9d9df;
   text-align: left;
+  font-size: 0.875rem;
 }
 
 .sidebar__bottom button:hover {
