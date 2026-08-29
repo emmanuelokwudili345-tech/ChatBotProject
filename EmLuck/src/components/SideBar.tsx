@@ -1,4 +1,6 @@
-export function Sidebar() {
+import './SideBar.css';
+
+export function SideBar() {
   return (
     <aside className="sidebar">
       <div className="sidebar__brand">

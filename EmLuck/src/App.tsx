@@ -1,11 +1,12 @@
-import AppShell from "./components/AppShell";
+import { AppShell } from "./components/AppShell";
+import { ChatWorkSpace } from "./components/ChatWorkSpace";
 
 function App() {
   return (
     <AppShell>
-      <h1>EMLUCK</h1>
+      <ChatWorkSpace />
     </AppShell>
   );
 }
 
-export default App;
+export default App

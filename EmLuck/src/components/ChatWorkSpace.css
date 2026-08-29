@@ -1,0 +1,5 @@
+.chat-workspace {
+  min-height: calc(100vh - var(--header-height));
+  display: flex;
+  justify-content: center;
+}

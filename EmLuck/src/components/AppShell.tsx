@@ -1,19 +1,20 @@
-import { Sidebar } from "./SideBar";
+import {Header} from "./Header";
+import { SideBar } from "./SideBar";
+import "./AppShell.css";
 
 interface AppShellProps {
   children: React.ReactNode;
 }
 
-function AppShell({ children }: AppShellProps) {
+export function AppShell({ children }: AppShellProps) {
   return (
     <div className="app-shell">
-      <Sidebar />
+      <SideBar />
 
       <main className="app-shell__main">
+        <Header />
         {children}
       </main>
     </div>
   );
 }
-
-export default AppShell;
