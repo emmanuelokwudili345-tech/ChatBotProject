@@ -48,3 +48,8 @@
 .chat-input__send:hover {
   opacity: 0.85;
 }
+
+.chat-input__send:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
