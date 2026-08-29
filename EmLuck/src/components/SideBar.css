@@ -1,0 +1,71 @@
+.sidebar {
+  width: var(--sidebar-width);
+  min-height: 100vh;
+  padding: 24px 16px;
+  background: var(--color-sidebar);
+  color: var(--color-text-light);
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar__brand {
+  margin-bottom: 28px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.sidebar__new-chat {
+  width: 100%;
+  padding: 11px 14px;
+  border-radius: var(--radius-sm);
+  background: var(--color-primary);
+  color: white;
+  text-align: left;
+  margin-bottom: 28px;
+}
+
+.sidebar__section {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.sidebar__label {
+  margin-bottom: 8px;
+  color: #9b9dab;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.sidebar__chat {
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: #d9d9df;
+  text-align: left;
+}
+
+.sidebar__chat:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.sidebar__bottom {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.sidebar__bottom button {
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: #d9d9df;
+  text-align: left;
+}
+
+.sidebar__bottom button:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
