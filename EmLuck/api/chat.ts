@@ -32,7 +32,7 @@ export default async function handler(
     console.error("OpenAI API error:", error);
 
     return res.status(500).json({
-      error: "Something went wrong",
+      error: error instanceof Error ? error.message : "Unknown error",
     });
   }
 }
